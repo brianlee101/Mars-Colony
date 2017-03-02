@@ -8,6 +8,11 @@ export class NewColonist {
     name:string;
     age:number;
     job_id: Job; 
+    constructor( name, age:string, job_id: string){
+        this.name = name;
+        this.age = age;
+        
+    }
 }
 
 export interface Colonist {
